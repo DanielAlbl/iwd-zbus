@@ -30,8 +30,6 @@ for path in $(busctl tree --list net.connman.iwd); do
     done
 done
 
-cd "$BASE_DIR/src" || exit 1
-
 cd "$BASE_DIR" || exit 1
 
 cargo fmt
